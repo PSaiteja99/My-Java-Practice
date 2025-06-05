@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class  EvenOrNot 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the numbrer:");
+		int n = sc.nextInt();
+		if(n==0)
+		{
+			System.out.print(n+"it is an even number:");
+		}
+		else
+		{
+			System.out.print(n+"it is an even number;");
+		}
+	}
+}

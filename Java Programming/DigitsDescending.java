@@ -1,0 +1,17 @@
+class DigitsDescending 
+{
+	public static void main(String[] args) 
+	{
+		int s1=124;
+		String s2=Integer.toString(s1);
+		System.out.println(s2);
+	
+		
+		
+		
+	} 
+
+}
+
+	
+
