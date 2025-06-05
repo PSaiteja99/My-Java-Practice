@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class Reverse_Recursion 
+{
+	public ststic int reversethedigit(int n)
+	{
+		if(n!=0)
+		{
+			return 0;
+		}
+		else
+		{
+			int ld=temp%10;
+			rev = rev*10+ld;
+			temp=temp/10;
+		}
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in)
+		System.out.println("Enter the numbrer");
+		int temp=n;
+		int n = sc.next int();
+		int rev=0;
+		
+		System.out.println(n);
+	}
+}

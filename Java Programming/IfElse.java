@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class  IfElse
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		if(a<11)
+		{
+			System.out.print("it is true");
+		}
+		else 
+		{
+			System.out.print("it is false");
+		}
+
+	}
+}
