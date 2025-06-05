@@ -1,0 +1,20 @@
+class SmallestDigit 
+{
+	public static void main(String[] args) 
+	{
+	
+		int n= 45678;
+		int sd=8;
+		while(n>0)
+		{
+			int d=n%10;
+			if(sd>d)
+			{
+			sd=d;
+			}
+			n=n/10;
+		}
+		System.out.println(sd);
+
+	}
+}

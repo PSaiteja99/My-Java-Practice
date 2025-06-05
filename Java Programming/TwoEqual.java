@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class  TwoEqual
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print(" Enter the value a:");
+		int a = sc .nextInt();
+		System.out.print(" Enter the value b:");
+		int b = sc .nextInt();
+		System.out.print(" Enter the value c:");
+		int c = sc .nextInt();
+		if((a+b==c)||(b+c==a)||(c+a==b))
+		{
+			System.out.print("true");
+		}
+		else
+		{
+			System.out.print("false");
+		}
+	
+
+	}
+}

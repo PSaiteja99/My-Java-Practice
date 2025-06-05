@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class SumOfNumberRecursion 
+{
+	public static int sumofnumbers(int a,int b)
+	{
+		if(a>b)
+			{
+			return 0;
+			}
+		else
+			{
+			return a+sumofnumbers(a+1,b);
+			}
+	}
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the start and end of the range:");
+		int start =sc.nextInt();
+		int end =sc.nextInt();
+		System.out.println(sumofnumbers(start,end));
+	}
+}
+

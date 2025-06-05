@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class SwitchGrade 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your grade:");
+		char grade=sc.next().charAt(0);
+		switch(grade)
+		{
+			case'A':case'a':System.out.println("you got first rank:");
+			break;
+			case'B':case'b':System.out.println("you got second rank:");
+			break;
+			case'C':case'c':System.out.println("you got first calss:");
+			break;
+			case'D':case'd':System.out.println("you got second calss:");
+			break;
+			case'E':case'e':System.out.println("you are just pass:");
+			break;
+			case'F':case'f':System.out.println("you are fail:");
+			break; 
+			default:System.out.println("Enter the valid input:");
+		}
+
+
+
+	}
+}
